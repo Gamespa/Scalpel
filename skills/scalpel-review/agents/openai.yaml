@@ -1,0 +1,7 @@
+interface:
+  display_name: "Review"
+  short_description: "Review changes for risk"
+  default_prompt: "Use $scalpel-review when reviewing uncommitted changes, design docs, or merges for correctness, risk, boundary breaks, or missing tests."
+
+policy:
+  allow_implicit_invocation: true

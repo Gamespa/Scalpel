@@ -1,0 +1,7 @@
+interface:
+  display_name: "Planning"
+  short_description: "Write a one-page spec"
+  default_prompt: "Use $scalpel-planning when a task is open-ended, cross-module, or high-risk enough to need a one-page spec before execution."
+
+policy:
+  allow_implicit_invocation: true

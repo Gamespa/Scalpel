@@ -1,0 +1,7 @@
+interface:
+  display_name: "Execution"
+  short_description: "Implement scoped work fast"
+  default_prompt: "Use $scalpel-execution when a task is already scoped and should be implemented quickly with minimal overhead."
+
+policy:
+  allow_implicit_invocation: true

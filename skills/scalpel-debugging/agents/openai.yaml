@@ -1,0 +1,7 @@
+interface:
+  display_name: "Debugging"
+  short_description: "Trace failures to root cause"
+  default_prompt: "Use $scalpel-debugging when tests, CI, or runtime behavior fail and the next step is root-cause analysis."
+
+policy:
+  allow_implicit_invocation: true

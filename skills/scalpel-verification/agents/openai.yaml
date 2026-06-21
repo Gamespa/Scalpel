@@ -1,0 +1,7 @@
+interface:
+  display_name: "Verification"
+  short_description: "Prove work before completion"
+  default_prompt: "Use $scalpel-verification when work is nearly done and you need to confirm behavior, tests, and acceptance before completion."
+
+policy:
+  allow_implicit_invocation: true

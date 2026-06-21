@@ -1,0 +1,7 @@
+interface:
+  display_name: "Risk Router"
+  short_description: "Route tasks by risk and escalation"
+  default_prompt: "Use $scalpel-risk-router to decide whether a task stays lightweight or escalates to planning, review, debugging, or verification."
+
+policy:
+  allow_implicit_invocation: true
